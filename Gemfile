@@ -10,10 +10,10 @@ gem 'puma',         '~> 4.3'
 gem 'activeadmin'
 
 # Gems!
-gem 'figaro',       '~> 1.1.1'
+gem 'figaro',       '~> 1.1'
 gem 'jbuilder',     '~> 2.5'
-gem 'oj',           '~> 2.18.5' # Used by rollbar
-gem 'rollbar',      '~> 2.13.3'
+gem 'oj',           '~> 2.18' # Used by rollbar
+gem 'rollbar',      '~> 2.13'
 gem 'redis'
 gem 'haikunator'
 
