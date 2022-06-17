@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.6.5'
 
 # Base
-gem 'rails',        '~> 5.1.7'
+gem 'rails',        '~> 5.2.8'
 gem 'pg',           '~> 0.18'
 gem 'puma',         '~> 4.3'
 
@@ -46,3 +46,5 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'spring-commands-rspec'
 end
+
+gem "bootsnap", "~> 1.12"
