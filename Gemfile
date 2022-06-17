@@ -2,8 +2,8 @@ source 'https://rubygems.org'
 ruby '2.6.5'
 
 # Base
-gem 'rails',        '6.0'
-gem 'pg',           '~> 0.18'
+gem 'rails',        '6.1'
+gem 'pg',           '~> 1.3'
 gem 'puma',         '~> 4.3'
 
 # Git sources
@@ -30,7 +30,7 @@ group :development, :test do
   gem 'byebug', platform: :mri
   gem 'capybara',     '~> 2.7.1'
   gem 'coffee-rails', '~> 4.2' # Teaspoon still needs coffee-rails, unfortunately (https://github.com/jejacks0n/teaspoon/issues/405)
-  gem 'rspec-rails', '~> 3.5'
+  gem 'rspec-rails', '~> 5.1'
   gem "teaspoon-jasmine"
   gem 'shoulda-matchers', '~> 3.1'
 end
