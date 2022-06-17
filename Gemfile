@@ -2,13 +2,12 @@ source 'https://rubygems.org'
 ruby '2.6.5'
 
 # Base
-gem 'rails',        '~> 5.1.6'
+gem 'rails',        '~> 5.1.7'
 gem 'pg',           '~> 0.18'
 gem 'puma',         '~> 4.3'
 
 # Git sources
-gem 'activeadmin',         git: 'https://github.com/activeadmin/activeadmin.git'
-gem 'inherited_resources', git: 'https://github.com/activeadmin/inherited_resources.git' # Used by activeadmin
+gem 'activeadmin'
 
 # Gems!
 gem 'figaro',       '~> 1.1.1'
