@@ -1,0 +1,37 @@
+.rocket {
+   text-align: center;
+   position: absolute;
+   display: block;
+   right: -150px;
+   top: 330px;
+}
+ .rocket .ship {
+   display: block;
+}
+ .rocket .ship svg {
+   height: 40px;
+   width: 70px;
+}
+ .rocket .ship svg #fire01 {
+   animation: shake01 0.1s ease infinite;
+}
+ .rocket .ship svg #fire02 {
+   animation: shake02 0.1s ease infinite;
+}
+ .rocket .ship svg #Rocket {
+   animation: levitate 3s ease infinite;
+   animation: levitate 2s ease infinite;
+}
+ .rocket .ship svg #fuselage, .rocket .ship svg #lights, .rocket .ship svg #pulsar, .rocket .ship svg #fire {
+   animation: levitate_slow_left 0.2s ease infinite;
+}
+ .rocket .ship svg .light {
+   animation: opacity 2s ease infinite;
+}
+ .rocket .ship svg .light.circle01 {
+   animation-delay: 0.2s;
+}
+ .rocket .ship svg .light.circle02 {
+   animation-delay: 0.4s;
+}
+ 

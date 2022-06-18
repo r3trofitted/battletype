@@ -18,7 +18,6 @@ gem 'redis'
 gem 'haikunator'
 
 # Assets
-gem 'sassc-rails'
 gem 'uglifier',     '>= 1.3.0'
 gem 'jquery-rails'
 gem 'turbolinks',   '~> 5'

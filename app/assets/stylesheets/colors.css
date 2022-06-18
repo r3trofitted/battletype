@@ -1,0 +1,16 @@
+:root {
+  --clr-body-bg: #30374a;
+  --clr-game-bg-lost: #630000;
+  --clr-game-bg-lost-gradient: #b70000;
+  --clr-game-bg-won: #357e49;
+  --clr-game-bg-won-gradient: #47a963;
+  --clr-game-bg-attack: #553555;
+  --clr-game-bg-defense: #00635E;
+  --clr-white: #fff;
+  --clr-word-label: #252532;
+  --clr-life: #FF4D4D;
+  --clr-life-300: #FF8080; /* 10% lighter */
+  --clr-life-200: #FFB3B3; /* 20% lighter */
+  --clr-life-100: #FFE6E6; /* 30% lighter */
+  --clr-game-input: #353E55;
+}
