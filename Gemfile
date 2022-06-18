@@ -8,7 +8,6 @@ gem 'puma',         '~> 5.6'
 gem 'sprockets-rails'
 
 # Gems!
-gem 'figaro',       '~> 1.1'
 gem 'jbuilder',     '~> 2.5'
 gem 'redis'
 gem 'haikunator'
