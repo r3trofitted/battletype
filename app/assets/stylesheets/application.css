@@ -11,16 +11,17 @@
  * It is generally better to create a new file per style scope.
  *
  *= require_self
+ *
+ *= require animations
+ *= require colors
+ *= require commons
+ *= require games
+ *= require stars
+ *= require small_ship
+ *= require medium_ship
+ *= require large_ship
+ *= require mothership
+ *= require rocket
  */
 
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
-@import 'colors';
-@import 'commons';
-@import 'games';
-@import 'stars';
-@import 'animations';
-@import 'small_ship';
-@import 'medium_ship';
-@import 'large_ship';
-@import 'mothership';
-@import 'rocket';

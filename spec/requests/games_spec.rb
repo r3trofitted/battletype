@@ -15,7 +15,7 @@ RSpec.describe "Games", type: :request do
         before :each do
           game.update(state: 'awaiting_opponent')
           allow_any_instance_of(ApplicationController).to receive(:current_player).and_return(player)
-          get URI::encode("/games/#{game.name}")
+          get "/games/#{game.name.gsub(' ', '%20')}"
         end
 
         it { expect(Game.count).to eq(1) }
