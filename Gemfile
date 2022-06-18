@@ -21,9 +21,7 @@ group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
   
   gem 'capybara',     '~> 3.37'
-  gem 'coffee-rails', '~> 5.0' # Teaspoon still needs coffee-rails, unfortunately (https://github.com/jejacks0n/teaspoon/issues/405)
   gem 'rspec-rails', '~> 5.1'
-  gem "teaspoon-jasmine"
   gem 'shoulda-matchers', '~> 5.1'
 end
 
