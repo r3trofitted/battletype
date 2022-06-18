@@ -7,9 +7,6 @@ gem 'pg',           '~> 1.3'
 gem 'puma',         '~> 5.6'
 gem 'sprockets-rails'
 
-# Git sources
-gem 'activeadmin'
-
 # Gems!
 gem 'figaro',       '~> 1.1'
 gem 'jbuilder',     '~> 2.5'
