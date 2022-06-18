@@ -18,10 +18,8 @@ gem 'jquery-rails'
 gem 'turbolinks',   '~> 5'
 
 group :development, :test do
-  gem 'pry-byebug'
-  gem 'pry-rails'
-
-  gem 'byebug', platform: :mri
+  gem "debug", platforms: %i[ mri mingw x64_mingw ]
+  
   gem 'capybara',     '~> 3.37'
   gem 'coffee-rails', '~> 5.0' # Teaspoon still needs coffee-rails, unfortunately (https://github.com/jejacks0n/teaspoon/issues/405)
   gem 'rspec-rails', '~> 5.1'
