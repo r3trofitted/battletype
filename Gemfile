@@ -13,7 +13,6 @@ gem 'activeadmin'
 # Gems!
 gem 'figaro',       '~> 1.1'
 gem 'jbuilder',     '~> 2.5'
-gem 'rollbar',      '~> 3.3'
 gem 'redis'
 gem 'haikunator'
 
